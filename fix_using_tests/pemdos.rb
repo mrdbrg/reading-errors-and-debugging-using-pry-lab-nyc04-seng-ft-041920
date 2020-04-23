@@ -1,9 +1,10 @@
 # don't forget to add: require 'pry'
+require 'pry'
 
-def snake_it_up(string)
-  if string[0] == "s"
-    10 * "s" + string
+def snake_it_up(st)
+  if st[0] == "s"
+    "s" * 10 + st
   else
-    string
+    st
   end
 end
