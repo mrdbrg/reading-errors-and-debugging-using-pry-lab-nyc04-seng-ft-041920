@@ -8,3 +8,4 @@ def snake_it_up(st)
     st
   end
 end
+binding.pry
